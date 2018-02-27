@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /assets/data/
+Disallow: /assets/fonts/
+Disallow: /assets/images/icons/
+Disallow: /css/
+Disallow: /js/
+Sitemap: /sitemap.xml
