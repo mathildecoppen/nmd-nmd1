@@ -1,29 +1,24 @@
-.color-box {
-    float:left;
-    background: var(--color-black);
 
-    width: 18%;
-    height: 168px;
-    margin-left: 1%;
-    margin-right: 1%;
+.card {
+    margin-bottom: 24px;
+    width: 100%;
+    position: relative;
+    float: left;
+    border: 1px solid darkgrey;
+}
 
-    border-radius: 8px;
+.welkom {
+    padding-left: 20px;
+    padding-right: 10px;
 }
-.color-box--orange {
-    background: var(--color-orange);
-}
-.color-box--green {
-    background: var(--color-green);
-}
-.color-box--fuchsia {
-    background: var(--color-fuchsia);
-}
-.color-box--blue {
-    background: var(--color-blue);
-}
-.color-box--light-grey {
-    background: var(--color-light-grey);
-}
+
+
+.card >img {
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+
+    }
 
 /*
  Logo component
@@ -49,15 +44,10 @@
 /*
  Card component
 */
-.card {
-    height: 216px;
-    margin-bottom: calc(var(--grid-gutter));
 
-    background: var(--color-fuchsia);
-}
 @media (min-width: 480px) {
     .card {
-        height: 268px;
+        height: 330px;
     }
 }
 @media (min-width: 768px) {
